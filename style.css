@@ -1,7 +1,7 @@
 nav {
   background-color: #62c6f2;
 }
-.nav-bar {
+.nav-bar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -9,11 +9,11 @@ nav {
   overflow: hidden;
 }
 
-li {
+.nav-bar li {
   float: left;
 }
 
-li a {
+.nav-bar li a {
   display: block;
   color: black;
   text-align: center;
