@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "SkylineParkPoly",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Name": "Skyline Park" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -104.996961952289624, 39.747021924335819 ], [ -104.997193675998375, 39.747217356066194 ], [ -104.993694555093057, 39.750003658268149 ], [ -104.993379795814533, 39.749768378866065 ], [ -104.996961952289624, 39.747021924335819 ] ] ] ] } }
+]
+}

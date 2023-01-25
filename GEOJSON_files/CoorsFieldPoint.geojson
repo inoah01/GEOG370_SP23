@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "CoorsFieldPoint",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Name": "Coors Field" }, "geometry": { "type": "Point", "coordinates": [ -104.994054518504541, 39.756127324332788 ] } }
+]
+}
