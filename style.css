@@ -1,7 +1,7 @@
 nav {
   background-color: #62c6f2;
 }
-#nav-bar ul {
+.nav-bar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -9,12 +9,12 @@ nav {
   overflow: hidden;
 }
 
-#nav-bar li {
+.nav-bar li {
   float: left;
 }
 
-#nav-bar li,
-#nav-bar a {
+.nav-bar li,
+.nav-bar a {
   display: block;
   color: black;
   text-align: center;
@@ -23,15 +23,10 @@ nav {
   font-weight: bold;
 }
 
-li a:hover {
+.nav-bar li a:hover {
   background-color: white;
 }
 
-.active {
+.nav-bar .active {
   background-color: #23afed;
-}
-
-.home-about {
-  font-size: larger;
-  font-weight: 100;
 }
