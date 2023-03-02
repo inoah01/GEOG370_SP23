@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GEOG 370: Homework 6.2 </title>
+    <link rel="stylesheet" href="/GEOG370_SP23/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="/GEOG370_SP23/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/GEOG370_SP23/hw1/hw1.html">Homework 1</a>
+          </li>
+          <li>
+            <a href="/GEOG370_SP23/hw2/hw2.html">Homework 2</a>
+          </li>
+          <li>
+            <a href="/GEOG370_SP23/hw3/hw3.html">Homework 3</a>
+          </li>
+          <li>
+            <a href="/GEOG370_SP23/hw4/hw4.html">Homework 4</a>
+          </li>
+          <li>
+            <a href="/GEOG370_SP23/hw5/hw5.html">Homework 5</a>
+          </li>
+          <li>
+            <a href="/GEOG370_SP23/test1/test1.html">Test 1</a>
+          </li>
+          <li>
+            <a href="/GEOG370_SP23/hw6/hw6.html">Homework 6</a>
+          </li>
+          <li>
+            <a class="active" href="/GEOG370_SP23/hw6-pt2/hw6-pt2.html">Homework 6.2</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Homework 6 Part 2</h1>
+    <p>Below are my three choropleth maps of Michigan counties looking at the median household income <br>
+    to median with cash rent ratio. In order to calculate this ratio, I first had to revisit my data from <br>
+    homework 6 part 1 and get the column for household income as opposed to family household income. The other <br>
+    key part of this ratio was rental data. I obtained this data through the same census data source as the <br>
+    median income data. After following a similar procedure for cleaning the data, I joined the two new columns to <br>
+    the Michigan counties vector layer that I had made for homework 6 part 1.</p>
+    <p>
+        I chose median household income to median with cash rent ratio to look at relative housing affordability in <br>
+        Michigan counties. Though the method of classification varies between the maps below, one fact <br>
+        remains constant, a higher ration indicates a higher cost of living. What makes further interpreting these <br>
+        results difficult, is correctly choosing the right classification method. Some ratios were hardly above 2, <br>
+        while others were greater than 10. This variation in values means that choosing an inappropriate classification <br>
+        method could result in missed outliers and patterns, or in the context of the ratio, incorrectly assuming interpreting <br>
+        the cost of living of a particular county. The three different classification modes I chose to compare are Equal Counts,<br>
+        Logarithmic Scale, and Pretty Breaks. Please click on the respective map for more information on the classification mode.
+
+    </p>
+    <h2>Equal Counts:</h2>
+    <a href="hw6_pt2_equal_count.png">
+        <img src="hw6_pt2_equal_count.png" alt="Green, choropleth map of median household income to w/ cash rent ratio of Michigan counties." width="500px">
+    </a>
+    <h2>Logarithmic Scale:</h2>
+    <a href="hw6_pt2_logarithmic_scale.png">
+        <img src="hw6_pt2_logarithmic_scale.png" alt="Blue, choropleth map of median household income to w/ cash rent ratio of Michigan counties." width="500px">
+    </a>
+    <h2>Pretty Breaks</h2>
+    <a href="hw6_pt2_pretty_breaks.png">
+        <img src="hw6_pt2_pretty_breaks.png" alt="Orange, choropleth map of median household income to w/ cash rent ratio of Michigan counties." width="500px">
+    </a>
+
+
+    <h2>Data used:</h3>
+    <li>
+      <a
+        href="../GEOJSON_files/Census_Michigan_Counties_4326.geojson"
+        >Link to Michigan counties geoJSON vector</a
+      >
+    </li>
+    <li>
+        <a href="https://data.census.gov/table?q=United+States&t=Income+(Households,+Families,+Individuals)&g=0100000US_0400000US26$0500000&tid=ACSST1Y2021.S1903"
+          >Link to Median Income Census Data for Michigan Counties</a
+        >
+    </li>
+    <li>
+      <a href="https://data.census.gov/table?q=B25063:+GROSS+RENT&g=0100000US_0400000US26$0500000&tid=ACSDT1Y2021.B25063"
+        >Link to Rent Data for Michigan Counties</a
+      >
+  </li>
+      <li>
+        <a href="modified-ACSDT1Y2021.B25063-2023-03-02T022339.csv"
+          >Link to cleaned, Michigan Income Census Data (Households only)</a
+        >
+      </li>
+      <li>
+        <a href="re-modified-ACSST5Y2021.S1903-2023-03-02T030107.csv"
+          >Link to cleaned, Rent Data for Michigan Counties</a
+        >
+    </li>
+  </body>
+</html>
