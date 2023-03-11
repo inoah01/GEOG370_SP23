@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GEOG 370: Homework 7</title>
+    <link rel="stylesheet" href="/GEOG370_SP23/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/hw1/hw1.html">Homework 1</a>
+          </li>
+          <li>
+            <a href="/hw2/hw2.html">Homework 2</a>
+          </li>
+          <li>
+            <a href="/hw3/hw3.html">Homework 3</a>
+          </li>
+          <li>
+            <a  href="/hw4/hw4.html">Homework 4</a>
+          </li>
+          <li>
+            <a href="/hw5/hw5.html">Homework 5</a>
+          </li>
+          <li>
+            <a href="/test1/test1.html">Test 1</a>
+          </li>
+          <li>
+            <a href="/hw6/hw6.html">Homework 6</a>
+          </li>
+          <li>
+            <a href="/hw6-pt2/hw6-pt2.html">Homework 6.2</a>
+          </li>
+          <li>
+            <a href="/hw7/hw7.html">Homework 7</a>
+          </li>
+          <li>
+            <a class="active" href="/test2/test2.html">Test 2</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Test 2 Practicum</h1>
+    <h2>My Map</h2>
+    <P>For a more detailed project abstract, please see "Interactive Map" below . . .</P>
+    <a href="davis_noah_test2_practicum.png">
+      <img
+        src="davis_noah_test2_practicum.png"
+        alt="Choropleth of Chapel Hill/Carrboro Bus Stops "
+        width="500"
+      />
+    </a>
+    <a href="qgis2web_2023_03_11-08_14_59_819827/index.html">
+      <h3>Interactive Version:</h3>
+    </a>
+    <p>More about the interactive map:
+      <ul>
+        <li>The project abstract can be viewed by hovering over the "i" in the upper-right-hand corner</li>
+        <li>Layers can be toggled using the checkboxes directly below the abstract box</li>
+        <li>Click on a census block or individual bus stop to see more data</li>
+        <li>To view the map in a new tab, click "Interactive Version:" above </li>
+      </ul>
+    </p>
+    <iframe
+      src="qgis2web_2023_03_11-08_14_59_819827/index.html"
+      height="600"
+      width="800"
+    ></iframe>
+    <h2>Data used for this project:</h2>
+    <ul>
+      <li>
+        <a href="../GEOJSON_files/clipped-ch_carrboro-streets.geojson"
+          >Chapel Hill/Carrboro streets (clipped to map extent)</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://opendata-townofchapelhill.hub.arcgis.com/datasets/chapel-hill-transit-bus-stops/explore?location=35.970734%2C-79.053937%2C12.46"
+          >Source of Chapel Hill/Carrboro streets</a
+        >
+      </li>
+      <li>
+        <a href="modified-data_for_join.csv"
+          >Cleaned data for bus stops by census block</a
+        >
+      </li>
+      <li>
+        <a href="modified-bus_stop_locations_carrborochapelhill.csv"
+          >Cleaned data for individual bus stop locations</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://github.com/inoah01/GEOG370_SP23/tree/main/test2/Block-Group-Data"
+          >Chapel Hill/Carrboro census blocks layer</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>
