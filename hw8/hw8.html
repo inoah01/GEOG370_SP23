@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GEOG 370: Homework 8</title>
+    <link rel="stylesheet" href="/GEOG370_SP23/style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <a href="/GEOG370_SP23/index.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Homeworks
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="/GEOG370_SP23/hw1/hw1.html">Homework 1</a>
+            <a href="/GEOG370_SP23/hw2/hw2.html">Homework 2</a>
+            <a href="/GEOG370_SP23/hw3/hw3.html">Homework 3</a>
+            <a href="/GEOG370_SP23/hw4/hw4.html">Homework 4</a>
+            <a href="/GEOG370_SP23/hw5/hw5.html">Homework 5</a>
+            <a href="/GEOG370_SP23/hw6/hw6.html">Homework 6</a>
+            <a href="/GEOG370_SP23/hw6-pt2/hw6-pt2.html">Homework 6.2</a>
+            <a href="/GEOG370_SP23/hw7/hw7.html">Homework 7</a>
+            <a href="/GEOG370_SP23/hw8/hw8.html">Homework 8</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Tests
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="/GEOG370_SP23/test1/test1.html">Test 1</a>
+            <a href="/GEOG370_SP23/test2/test2.html">Test 2</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <h1>Homework 8: Vector Spatial Analysis</h1>
+    <h2>My Map</h2>
+    <p>More about the interactive <a href="qgis2web_2023_03_30-07_10_44_409562/index.html">map:</a>
+      <ul>
+        <li>The project abstract can be viewed by hovering over the "i" in the upper-right-hand corner</li>
+        <li>Layers can be toggled using the checkboxes directly below the abstract box</li>
+        <li>Click on a county or individual EV charging station to see more data</li>
+        <li>The data sources used for this project can be found at the bottom of the map abstract<br>or at the bottom of the page</li>
+        <li>Use the ruler tool in the upper-right-hand corner to measure between a distance between two points (metric units)</li>
+        <li>To view the map in a new tab, click "map:" (above)</li>
+      </ul>
+    </p>
+    <iframe
+      src="qgis2web_2023_03_30-07_10_44_409562/index.html"
+      height="600"
+      width="800"
+    ></iframe>
+    <h2>Data used for this project:</h2>
+    <ul>
+      <li>
+        <a href="NC_EV_Charging_Station_Points_6543.geojson"
+          >Cleaned point layer of NC EV charging stations</a
+        >
+      </li>
+      <li>
+        <a href="NC_EV_Station_5mile_buffer.geojson"
+          >5 Mile clipped and dissolved buffer of EV charging stations</a
+        >
+      </li>
+      <li>
+        <a href="NC_Dec22_ZEV_EV-Stations_Choropleth_Layer.shp"
+          >HW7 Choropleth as a shapefile layer</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>
